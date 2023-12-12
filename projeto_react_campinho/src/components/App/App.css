@@ -15,8 +15,13 @@
     padding: 15px;
     width: 200px;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
   }
   
+  .movie-card:hover {
+    transform: scale(1.1);
+  }
+
   .movie-poster {
     max-width: 100%;
     border-radius: 8px;

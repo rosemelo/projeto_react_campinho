@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
+
 const API_KEY = '1e18110601e24d0348f6ab85f7400806';  
 
 const App = () => {
@@ -23,7 +24,8 @@ const App = () => {
         setMovies(response.data.results);
 
         // Log para verificar a resposta da API
-        console.log('Resposta da API:', response.data.results);
+        // console.log('Resposta da API:', response.data.results);
+
       } catch (error) {
         console.error('Erro ao obter filmes:', error);
       }
@@ -33,7 +35,7 @@ const App = () => {
   }, []);
 
   // Log para verificar o estado dos filmes
-  console.log('Estado dos filmes:', movies);
+  // console.log('Estado dos filmes:', movies);
 
   return (
     <div className="App">
