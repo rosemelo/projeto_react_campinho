@@ -7,7 +7,7 @@ const Footer = () => {
 
       <p>Para saber mais sobre esse e outros projetos, visite meu</p>
 
-      <a href="https://github.com/rosemelo?tab=repositories" target="_blank">GitHub</a>
+      <a href="https://github.com/rosemelo?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
 
     </footer>
   );
