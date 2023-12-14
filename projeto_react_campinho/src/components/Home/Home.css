@@ -1,15 +1,33 @@
 nav {
-    background-color: #e3e4d6;
-    padding: 10px;
-    text-align: center;
-    color: #e3e4d6;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-  }
+  background-color: #e3e4d6;
+  padding: 10px;
+  text-align: center;
+  color: #333; /* Alterei a cor do texto para uma cor mais legível em fundo claro */
+  font-size: 18px; /* Aumentei o tamanho da fonte */
+}
 
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  font-size: 30px; 
+  padding: 20px;
+  color: #1a1818; 
+}
+
+a {
+  color: #531340; 
+}
+
+
+  
   
